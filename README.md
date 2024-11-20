@@ -1,0 +1,1 @@
+A web application designed to manage and sell stationery called LKKShop. This application will provide a user-friendly interface for users to select and purchase products and calculate the total amount for users to pay. The Admin side will allow product addition and updating to be displayed on the customer's shopping page. This is a project for the PRJ course in Semester 4.
