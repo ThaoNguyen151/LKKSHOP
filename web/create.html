@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+        <title>Register Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Bootstrap-->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles/create.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css"/>
+        <link rel="stylesheet" href="css/bootstrap-grid.rtl.min.css" type="text/css">
+
+    </head>
+    <body>
+        <div class="row loginform">
+            <div class="col-md-12 loginheader">
+                </br>
+                </br>
+                <h1>REGISTER</h1>
+            </div>
+
+           
+
+            <div class="row infomationform">
+                <form action="MainController" method="POST">
+                    <div class="col-md-12 input-group input-group-lg">
+                        <input class="form-control" type="text" name="userID" placeholder="User ID" required=""/>
+                    </div>
+                    </br>
+                    <div class="col-md-12 input-group input-group-lg">
+                        <input class="form-control" type="text" name="fullName" placeholder="fullName" required=""/>
+                    </div>
+                    </br>
+                    <div class="col-md-12 input-group input-group-lg">
+                        <input class="form-control" type="text" name="roleID" value="US" required="" readonly=""/>
+                    </div>
+                    </br>
+                    <div class="col-md-12 input-group input-group-lg">
+                        <input class="form-control" type="password" name="password" placeholder="Password" required=""/> 
+                    </div>
+                    </br>
+                    <div class="col-md-12 input-group input-group-lg">
+                        <input class="form-control" type="password" name="confirm" placeholder="Password" required=""/>
+                    </div>
+                    </br>
+                       <div class="row">
+                        <div class="col-md-6">
+                            <input class="btn btn-primary login-reset-btn" type="reset" value="Reset"/>
+                        </div>
+                        <div class="col-md-6">
+                            <input class="btn btn-primary login-reset-btn" type="submit" name="action" value="Create"/>
+                        </div>
+            </div>
+                   
+                </form>
+            </div>
+
+            </div>
+        </div>
+    </body>
+</html>
+
